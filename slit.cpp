@@ -24,8 +24,8 @@ LineOfSources Slit::ModifyLine(LineOfSources& prevLine) {
 
         if(brkFind(slit_params, 3))
         {
-            d = (double)atof(brkFind(slit_params, 1));//params["d"]; расстояние между щелями
-            b = (double)atof(brkFind(slit_params, 2));//params["b"];  ширина щели
+            d = (double)atof(brkFind(slit_params, 1));//params["d"]; 
+            b = (double)atof(brkFind(slit_params, 2));//params["b"];  
             y = (double)atof(brkFind(slit_params, 3));//params["y"];
         }
 
