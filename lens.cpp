@@ -11,13 +11,13 @@ LineOfSources Lens::ModifyLine(LineOfSources& prevLine) {
 	/*for(int i = 0; i <= 4; i++){
 	params.insert ( pair<string,double> ("d",0.01) );
 	}*/
-    double f = 0.1;// params["d"]; фокусное рассояние
+    double f = 0.1;// params["d"]; 
     double y = 0.6;//params["y"];
 
 	LineOfSources line_to_modify(y, prevLine);
 	LineOfSources newLine = line_to_modify;
 
-//    double R = f * 0.4; // радиус кривизны
+//    double R = f * 0.4; // 
 //	double x_0 = max_x - min_x;
 
 
