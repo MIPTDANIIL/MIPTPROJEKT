@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 
     
-    std::cout << "Hello, world" << std::endl;
+    std::cout << " Optics for sane people" << std::endl;
     
     double A = 1;
     double Ph = 1.57;
